@@ -17,28 +17,18 @@ Routing technologies used
 
 Here is where you can locate the relevant files nested within the `files/` directory. Many of these components are still being worked on.
 
-``` sh
-`--> tree
+``` bash
+`--> tree -L 3
 .
 ├── files
 │   ├── ansible
+│   │   ├── ansible.cfg
+│   │   ├── collections
+│   │   ├── inventory.yaml
+│   │   └── pb.configure.yaml
 │   ├── configurations
 │   │   ├── after
-│   │   │   ├── amarillo.conf
-│   │   │   ├── austin.conf
-│   │   │   ├── dallas.conf
-│   │   │   ├── elpaso.conf
-│   │   │   ├── fortworth.conf
-│   │   │   ├── houston.conf
-│   │   │   └── sanantonio.conf
 │   │   └── before
-│   │       ├── amarillo.conf
-│   │       ├── austin.conf
-│   │       ├── dallas.conf
-│   │       ├── elpaso.conf
-│   │       ├── fortworth.conf
-│   │       ├── houston.conf
-│   │       └── sanantonio.conf
 │   ├── docker
 │   ├── docs
 │   ├── eveng
@@ -46,9 +36,9 @@ Here is where you can locate the relevant files nested within the `files/` direc
 │   └── images
 │       └── mpls-l3vpn.svg
 ├── LICENSE
+├── poetry.lock
+├── pyproject.toml
 └── README.md
-
-9 directories, 18 files
 
 ```
 
