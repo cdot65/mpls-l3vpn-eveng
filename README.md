@@ -1,6 +1,6 @@
-# MPLS L3EVPN lab in EVE-NG
+# MPLS L3VPN with Ansible
 
-An lab based on an MPLS L3VPN service provider network running Juniper vMX routers.
+An EVE-NG lab based on an MPLS L3VPN service provider network running Juniper vMX routers.
 
 ## Lab Topology
 
