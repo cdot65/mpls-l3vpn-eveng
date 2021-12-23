@@ -24,13 +24,13 @@ Here is where you can locate the relevant files, nested within the `files/` dire
 │   ├── configurations
 │   │   ├── after
 │   │   └── before
-│   │       ├── vmx101.conf
-│   │       ├── vmx102.conf
-│   │       ├── vmx103.conf
-│   │       ├── vmx104.conf
-│   │       ├── vmx105.conf
-│   │       ├── vmx106.conf
-│   │       └── vmx107.conf
+│   │       ├── amarillo.conf
+│   │       ├── austin.conf
+│   │       ├── dallas.conf
+│   │       ├── elpaso.conf
+│   │       ├── fortworth.conf
+│   │       ├── houston.conf
+│   │       └── sanantonio.conf
 │   ├── docker
 │   ├── docs
 │   └── images
