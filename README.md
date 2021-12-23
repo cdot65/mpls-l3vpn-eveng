@@ -11,7 +11,7 @@ Routing technologies used
 - MPLS
 - RSVP
 
-[![N|Solid](./images/mpls-l3vpn.svg)](https://juniper.net/)
+[![N|Solid](./files/images/mpls-l3vpn.svg)](https://juniper.net/)
 
 ## Project Layout
 
