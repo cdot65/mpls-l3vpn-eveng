@@ -15,14 +15,22 @@ Routing technologies used
 
 ## Project Layout
 
-Here is where you can locate the relevant files, nested within the `files/` directory
+Here is where you can locate the relevant files nested within the `files/` directory. Many of these components are still being worked on.
 
 ``` sh
+`--> tree
 .
 ├── files
 │   ├── ansible
 │   ├── configurations
 │   │   ├── after
+│   │   │   ├── amarillo.conf
+│   │   │   ├── austin.conf
+│   │   │   ├── dallas.conf
+│   │   │   ├── elpaso.conf
+│   │   │   ├── fortworth.conf
+│   │   │   ├── houston.conf
+│   │   │   └── sanantonio.conf
 │   │   └── before
 │   │       ├── amarillo.conf
 │   │       ├── austin.conf
@@ -33,13 +41,16 @@ Here is where you can locate the relevant files, nested within the `files/` dire
 │   │       └── sanantonio.conf
 │   ├── docker
 │   ├── docs
+│   ├── eveng
+│   │   └── lab.zip
 │   └── images
 │       └── mpls-l3vpn.svg
 ├── LICENSE
 └── README.md
-```
 
-As you can see, there is more to come later.
+9 directories, 18 files
+
+```
 
 ## Automation
 
