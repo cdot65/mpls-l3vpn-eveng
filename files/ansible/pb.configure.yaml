@@ -1,0 +1,24 @@
+---
+- hosts: all
+  connection: local
+  gather_facts: False
+  become: False
+  collections: 
+    - juniper.device
+  tasks:
+
+    - name: "send our CLI configuration commands to our devices"
+      config:
+        user: root
+        passwd: juniper123
+        timeout: 240
+        load: merge
+        format: set
+        lines:
+          - "set system domain-name dmz.home"
+      register: result
+
+    - name: "print the output of our task, only if there is any difference"
+      debug:
+        var: result.diff_lines
+      when: result.diff_lines is defined

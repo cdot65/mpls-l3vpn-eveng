@@ -1,0 +1,27 @@
+---
+all:
+  children:
+    serviceprovider:
+      children:
+        pe:
+          hosts:
+            amarillo:
+              ansible_host: "192.168.110.13"
+            fortworth:
+              ansible_host: "192.168.110.16"
+            houston:
+              ansible_host: "192.168.110.11"
+            sanantonio:
+              ansible_host: "192.168.110.14"
+        backbone:
+          hosts:
+            austin:
+              ansible_host: "192.168.110.15"
+            dallas:
+              ansible_host: "192.168.110.12"
+    customer:
+      children:
+        redtail:
+          hosts:
+            elpaso:
+              ansible_host: "192.168.110.17"
